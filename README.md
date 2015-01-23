@@ -1,4 +1,4 @@
-# Usage
+### Usage
 
 ```coffee
 LazyIterator = require 'lazy-iterator' # node only
@@ -9,7 +9,7 @@ INTERVAL = 1000
 i = 0
 
 putInValue = ()->
-	li.add(i)
+	li.send(i)
 	i += INTERVAL
 
 setInterval putInValue, INTERVAL
@@ -29,7 +29,7 @@ var li = new LazyIterator();
 
 var INTERVAL = 1000, i = 0;
 setInterval(function(){
-    li.add(i);
+    li.send(i);
     i += INTERVAL;
 }, INTERVAL);
 

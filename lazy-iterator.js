@@ -115,9 +115,9 @@
 		});
 	}
 
-	if (window !== undefined){
-		window.Stream = Stream;
-	} else {
+	if (module && module.exports){
 		module.exports = Stream;
+	} else {
+		window.LazyIterator = Stream;
 	}
 })();

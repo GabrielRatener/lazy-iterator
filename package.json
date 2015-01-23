@@ -3,21 +3,37 @@
   "description": "Streams which conform to the CoffeeScript lazy iterator specification",
   "version": "0.0.1",
   "maintainers": [
-    {
-      "name": "Gabriel Ratener",
-      "email": "gabe9693@gmail.com",
-      "web": ""
-    }
+    "Gabriel Ratener <gabe9693@gmail.com>"
   ],
   "repository": {
     "type": "git",
     "url": "https://github.com/GabrielRatener/lazy-iterator.git"
-  }
-  ,
+  },
   "licenses": [
     {
       "name": "MIT",
       "url": "http://opensource.org/licenses/MIT"
     }
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/GabrielRatener/lazy-iterator/issues"
+  },
+  "homepage": "https://github.com/GabrielRatener/lazy-iterator",
+  "main": "./lazy-iterator.js",
+  "dependencies": {
+    "co": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "./test.js"
+  },
+  "keywords": [
+    "iterator",
+    "async",
+    "coffeescript",
+    "javascript",
+    "stream"
+  ],
+  "author": "Gabriel Ratener",
+  "license": "MIT"
 }
