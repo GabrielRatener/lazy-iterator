@@ -1,7 +1,7 @@
 # Usage
 
 ```coffee
-LazyIterator = require 'lazy-iterator'
+LazyIterator = require 'lazy-iterator' # node only
 
 li = new LazyIterator()
 
@@ -12,8 +12,7 @@ putInValue = ()->
 	li.add(i)
 	i += INTERVAL
 
-
-window.setInterval putInValue, INTERVAL
+setInterval putInValue, INTERVAL
 
 do ->~
 	for timePassed upon li
@@ -25,11 +24,11 @@ do ->~
 Equivalent JavaScript using task.js:
 
 ```js
-var LazyIterator = require("lazy-iterator");
+var LazyIterator = require("lazy-iterator");	// node only
 var li = new LazyIterator();
 
 var INTERVAL = 1000, i = 0;
-window.setInterval(function(){
+setInterval(function(){
     li.add(i);
     i += INTERVAL;
 }, INTERVAL);
