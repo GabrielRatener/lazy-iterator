@@ -1,7 +1,7 @@
 # Usage
 
-```
-LazyIterator = require 'lazy-iterator'
+```coffee
+LazyIterator = require 'lazy-iterator' # node only
 
 li = new LazyIterator()
 
@@ -12,7 +12,10 @@ putInValue = ()->
 	li.add(i)
 	i += INTERVAL
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> c07da3b095226cf7bcae5c816c03d4e78e367273
 setInterval putInValue, INTERVAL
 
 do ->~
@@ -25,7 +28,7 @@ do ->~
 Equivalent JavaScript using task.js:
 
 ```js
-var LazyIterator = require("lazy-iterator");
+var LazyIterator = require("lazy-iterator");	// node only
 var li = new LazyIterator();
 
 var INTERVAL = 1000, i = 0;
