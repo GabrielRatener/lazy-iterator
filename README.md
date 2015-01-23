@@ -1,6 +1,6 @@
 # Usage
 
-```
+```coffee
 LazyIterator = require 'lazy-iterator'
 
 li = new LazyIterator()
