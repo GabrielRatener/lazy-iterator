@@ -1,7 +1,7 @@
 {
   "name": "lazy-iterator",
   "description": "Streams which conform to the CoffeeScript lazy iterator specification",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "maintainers": [
     "Gabriel Ratener <gabe9693@gmail.com>"
   ],

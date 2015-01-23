@@ -1,0 +1,123 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish', './' ]
+2 info using npm@1.4.9
+3 info using node@v0.11.13
+4 verbose publish [ './' ]
+5 verbose cache add [ './', null ]
+6 verbose cache add name=undefined spec="./" args=["./",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: './',
+7 verbose parsed url   path: './',
+7 verbose parsed url   href: './' }
+8 silly lockFile 0ee6c175- ./
+9 verbose lock ./ /home/peter/.npm/0ee6c175-.lock
+10 verbose tar pack [ '/home/peter/tmp/npm-11145-BrAD2fY5/1422042918670-0.8514470842201263/tmp.tgz',
+10 verbose tar pack   './' ]
+11 verbose tarball /home/peter/tmp/npm-11145-BrAD2fY5/1422042918670-0.8514470842201263/tmp.tgz
+12 verbose folder ./
+13 info prepublish lazy-iterator@0.0.1
+14 silly lockFile 04cb2bca-tar tar://./
+15 verbose lock tar://./ /home/peter/.npm/04cb2bca-tar.lock
+16 silly lockFile 9980e91b-18670-0-8514470842201263-tmp-tgz tar:///home/peter/tmp/npm-11145-BrAD2fY5/1422042918670-0.8514470842201263/tmp.tgz
+17 verbose lock tar:///home/peter/tmp/npm-11145-BrAD2fY5/1422042918670-0.8514470842201263/tmp.tgz /home/peter/.npm/9980e91b-18670-0-8514470842201263-tmp-tgz.lock
+18 silly lockFile 04cb2bca-tar tar://./
+19 silly lockFile 04cb2bca-tar tar://./
+20 silly lockFile 9980e91b-18670-0-8514470842201263-tmp-tgz tar:///home/peter/tmp/npm-11145-BrAD2fY5/1422042918670-0.8514470842201263/tmp.tgz
+21 silly lockFile 9980e91b-18670-0-8514470842201263-tmp-tgz tar:///home/peter/tmp/npm-11145-BrAD2fY5/1422042918670-0.8514470842201263/tmp.tgz
+22 verbose tar unpack /home/peter/tmp/npm-11145-BrAD2fY5/1422042918670-0.8514470842201263/tmp.tgz
+23 silly lockFile 9c51440b--npm-lazy-iterator-0-0-1-package tar:///home/peter/.npm/lazy-iterator/0.0.1/package
+24 verbose lock tar:///home/peter/.npm/lazy-iterator/0.0.1/package /home/peter/.npm/9c51440b--npm-lazy-iterator-0-0-1-package.lock
+25 silly lockFile 9980e91b-18670-0-8514470842201263-tmp-tgz tar:///home/peter/tmp/npm-11145-BrAD2fY5/1422042918670-0.8514470842201263/tmp.tgz
+26 verbose lock tar:///home/peter/tmp/npm-11145-BrAD2fY5/1422042918670-0.8514470842201263/tmp.tgz /home/peter/.npm/9980e91b-18670-0-8514470842201263-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+30 silly gunzTarPerm extractEntry .npmignore
+31 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+32 silly gunzTarPerm extractEntry README.md
+33 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+34 silly gunzTarPerm extractEntry LICENSE
+35 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+36 silly gunzTarPerm extractEntry lazy-iterator.js
+37 silly gunzTarPerm modified mode [ 'lazy-iterator.js', 438, 420 ]
+38 silly gunzTarPerm extractEntry lazy-iterator.min.js
+39 silly gunzTarPerm modified mode [ 'lazy-iterator.min.js', 436, 420 ]
+40 silly gunzTarPerm extractEntry test.js
+41 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+42 silly lockFile 9c51440b--npm-lazy-iterator-0-0-1-package tar:///home/peter/.npm/lazy-iterator/0.0.1/package
+43 silly lockFile 9c51440b--npm-lazy-iterator-0-0-1-package tar:///home/peter/.npm/lazy-iterator/0.0.1/package
+44 silly lockFile 9980e91b-18670-0-8514470842201263-tmp-tgz tar:///home/peter/tmp/npm-11145-BrAD2fY5/1422042918670-0.8514470842201263/tmp.tgz
+45 silly lockFile 9980e91b-18670-0-8514470842201263-tmp-tgz tar:///home/peter/tmp/npm-11145-BrAD2fY5/1422042918670-0.8514470842201263/tmp.tgz
+46 silly lockFile 0ee6c175- ./
+47 silly lockFile 0ee6c175- ./
+48 silly publish { name: 'lazy-iterator',
+48 silly publish   description: 'Streams which conform to the CoffeeScript lazy iterator specification',
+48 silly publish   version: '0.0.1',
+48 silly publish   maintainers: [ { name: 'Gabriel Ratener', email: 'gabe9693@gmail.com' } ],
+48 silly publish   repository:
+48 silly publish    { type: 'git',
+48 silly publish      url: 'https://github.com/GabrielRatener/lazy-iterator.git' },
+48 silly publish   licenses: [ { name: 'MIT', url: 'http://opensource.org/licenses/MIT' } ],
+48 silly publish   bugs: { url: 'https://github.com/GabrielRatener/lazy-iterator/issues' },
+48 silly publish   homepage: 'https://github.com/GabrielRatener/lazy-iterator',
+48 silly publish   main: './lazy-iterator.js',
+48 silly publish   dependencies: { co: '^4.1.0' },
+48 silly publish   devDependencies: {},
+48 silly publish   scripts: { test: './test.js' },
+48 silly publish   keywords: [ 'iterator', 'async', 'coffeescript', 'javascript', 'stream' ],
+48 silly publish   author: { name: 'Gabriel Ratener' },
+48 silly publish   license: 'MIT',
+48 silly publish   readme: '### Usage\n\n```coffee\nLazyIterator = require \'lazy-iterator\' # node only\n\nli = new LazyIterator()\n\nINTERVAL = 1000\ni = 0\n\nputInValue = ()->\n\tli.send(i)\n\ti += INTERVAL\n\nsetInterval putInValue, INTERVAL\n\ndo ->~\n\tfor timePassed upon li\n\t\tconsole.log timePassed\n\n# prints time passed in ms since start of loop\n```\n\nEquivalent JavaScript using task.js:\n\n```js\nvar LazyIterator = require("lazy-iterator");\t// node only\nvar li = new LazyIterator();\n\nvar INTERVAL = 1000, i = 0;\nsetInterval(function(){\n    li.send(i);\n    i += INTERVAL;\n}, INTERVAL);\n\nspawn(function*(){\n    while(true){\n        var out = yield li.next();\n        if (out.done) break;\n        else var timePassed = out.value;\n        \n        console.log(timePassed);\n    }\n});\n\n```\n\n### Version\n0.0.1\n\n### Installations\nWith npm: \n```sh\n$ npm install lazy-stream\n```\n\nin browser include lazy-stream.js or lazy-stream.min.js in a script tag:\n\n```html\n    <script type="text/javascript" src="<path/to/either file>"></script>\n```\n\n\nLicense\n----\n\nMIT\n',
+48 silly publish   readmeFilename: 'README.md',
+48 silly publish   _id: 'lazy-iterator@0.0.1',
+48 silly publish   _shasum: '001edd5104cb64fd4cb9e5f1f409d6b2cf68db46',
+48 silly publish   _from: './' }
+49 verbose url raw lazy-iterator
+50 verbose url resolving [ 'https://registry.npmjs.org/', './lazy-iterator' ]
+51 verbose url resolved https://registry.npmjs.org/lazy-iterator
+52 info trying registry request attempt 1 at 11:55:18
+53 http PUT https://registry.npmjs.org/lazy-iterator
+54 http 403 https://registry.npmjs.org/lazy-iterator
+55 verbose headers { date: 'Fri, 23 Jan 2015 19:55:19 GMT',
+55 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+55 verbose headers   'content-type': 'application/json',
+55 verbose headers   'cache-control': 'max-age=60',
+55 verbose headers   'content-length': '3919',
+55 verbose headers   'accept-ranges': 'bytes',
+55 verbose headers   via: '1.1 varnish',
+55 verbose headers   'x-served-by': 'cache-lax1425-LAX',
+55 verbose headers   'x-cache': 'MISS',
+55 verbose headers   'x-cache-hits': '0',
+55 verbose headers   'x-timer': 'S1422042919.152988,VS0,VE51',
+55 verbose headers   connection: 'close' }
+56 error publish Failed PUT 403
+57 error Error: forbidden cannot modify pre-existing version: 0.0.1
+57 error old={"name":"lazy-iterator","description":"Streams which conform to the CoffeeScript lazy iterator specification","version":"0.0.1","maintainers":[{"name":"gratener","email":"gabe9693@gmail.com"}],"repository":{"type":"git","url":"https://github.com/GabrielRatener/lazy-iterator.git"},"licenses":[{"name":"MIT","url":"http://opensource.org/licenses/MIT"}],"bugs":{"url":"https://github.com/GabrielRatener/lazy-iterator/issues"},"homepage":"https://github.com/GabrielRatener/lazy-iterator","main":"./lazy-iterator.js","dependencies":{"co":"^4.1.0"},"devDependencies":{},"scripts":{"test":"./test.js"},"keywords":["iterator","async","coffeescript","javascript","stream"],"author":{"name":"Gabriel Ratener"},"license":"MIT","_id":"lazy-iterator@0.0.1","_shasum":"c46dfd6fd731b80eebbb5961f05e21fb84da16d5","_from":"./","_npmVersion":"1.4.9","_npmUser":{"name":"gratener","email":"gabe9693@gmail.com"},"dist":{"shasum":"c46dfd6fd731b80eebbb5961f05e21fb84da16d5","tarball":"http://registry.npmjs.org/lazy-iterator/-/lazy-iterator-0.0.1.tgz"}}
+57 error new={"name":"lazy-iterator","description":"Streams which conform to the CoffeeScript lazy iterator specification","version":"0.0.1","maintainers":[{"name":"gratener","email":"gabe9693@gmail.com"}],"repository":{"type":"git","url":"https://github.com/GabrielRatener/lazy-iterator.git"},"licenses":[{"name":"MIT","url":"http://opensource.org/licenses/MIT"}],"bugs":{"url":"https://github.com/GabrielRatener/lazy-iterator/issues"},"homepage":"https://github.com/GabrielRatener/lazy-iterator","main":"./lazy-iterator.js","dependencies":{"co":"^4.1.0"},"devDependencies":{},"scripts":{"test":"./test.js"},"keywords":["iterator","async","coffeescript","javascript","stream"],"author":{"name":"Gabriel Ratener"},"license":"MIT","readme":"### Usage\u000a\u000a```coffee\u000aLazyIterator = require 'lazy-iterator' # node only\u000a\u000ali = new LazyIterator()\u000a\u000aINTERVAL = 1000\u000ai = 0\u000a\u000aputInValue = ()->\u000a\u0009li.send(i)\u000a\u0009i += INTERVAL\u000a\u000asetInterval putInValue, INTERVAL\u000a\u000ado ->~\u000a\u0009for timePassed upon li\u000a\u0009\u0009console.log timePassed\u000a\u000a# prints time passed in ms since start of loop\u000a```\u000a\u000aEquivalent JavaScript using task.js:\u000a\u000a```js\u000avar LazyIterator = require(\"lazy-iterator\");\u0009// node only\u000avar li = new LazyIterator();\u000a\u000avar INTERVAL = 1000, i = 0;\u000asetInterval(function(){\u000a    li.send(i);\u000a    i += INTERVAL;\u000a}, INTERVAL);\u000a\u000aspawn(function*(){\u000a    while(true){\u000a        var out = yield li.next();\u000a        if (out.done) break;\u000a        else var timePassed = out.value;\u000a        \u000a        console.log(timePassed);\u000a    }\u000a});\u000a\u000a```\u000a\u000a### Version\u000a0.0.1\u000a\u000a### Installations\u000aWith npm: \u000a```sh\u000a$ npm install lazy-stream\u000a```\u000a\u000ain browser include lazy-stream.js or lazy-stream.min.js in a script tag:\u000a\u000a```html\u000a    <script type=\"text/javascript\" src=\"<path/to/either file>\"></script>\u000a```\u000a\u000a\u000aLicense\u000a----\u000a\u000aMIT\u000a","readmeFilename":"README.md","_id":"lazy-iterator@0.0.1","_shasum":"001edd5104cb64fd4cb9e5f1f409d6b2cf68db46","_from":"./","_npmVersion":"1.4.9","_npmUser":{"name":"gratener","email":"gabe9693@gmail.com"},"dist":{"shasum":"001edd5104cb64fd4cb9e5f1f409d6b2cf68db46","tarball":"http://registry.npmjs.org/lazy-iterator/-/lazy-iterator-0.0.1.tgz"}}: lazy-iterator
+57 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:273:14)
+57 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:211:65)
+57 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+57 error     at Request.EventEmitter.emit (events.js:110:17)
+57 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+57 error     at Request.EventEmitter.emit (events.js:129:20)
+57 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+57 error     at IncomingMessage.EventEmitter.emit (events.js:129:20)
+57 error     at _stream_readable.js:898:16
+57 error     at process._tickCallback (node.js:343:11)
+58 error If you need help, you may report this *entire* log,
+58 error including the npm and node versions, at:
+58 error     <http://github.com/npm/npm/issues>
+59 error System Linux 3.13.0-24-generic
+60 error command "/usr/local/bin/node" "/usr/local/bin/npm" "publish" "./"
+61 error cwd /home/peter/Apps/lazy-iterator
+62 error node -v v0.11.13
+63 error npm -v 1.4.9
+64 verbose exit [ 1, true ]
