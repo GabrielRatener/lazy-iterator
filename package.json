@@ -1,0 +1,24 @@
+{
+  "name": "Gabriel Ratener",
+  "description": "Streams which conform to the CoffeeScript lazy iterator specification",
+  "version": "0.0.1",
+  "maintainers": [
+    {
+      "name": "Gabriel Ratener",
+      "email": "gabe9693@gmail.com",
+      "web": ""
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/GabrielRatener/lazy-iterator.git"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ]
+}
