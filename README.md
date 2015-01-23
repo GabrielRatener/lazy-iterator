@@ -13,7 +13,7 @@ putInValue = ()->
 	i += INTERVAL
 
 
-window.setInterval putInValue, INTERVAL
+setInterval putInValue, INTERVAL
 
 do ->~
 	for timePassed upon li
@@ -29,7 +29,7 @@ var LazyIterator = require("lazy-iterator");
 var li = new LazyIterator();
 
 var INTERVAL = 1000, i = 0;
-window.setInterval(function(){
+setInterval(function(){
     li.add(i);
     i += INTERVAL;
 }, INTERVAL);
